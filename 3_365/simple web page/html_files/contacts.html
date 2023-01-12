@@ -10,9 +10,16 @@
     <h2>Here will be my contacts</h2>
     <p>Please fill the <strong>form</strong></p>
 
-    <form action="" method="post">
-      <p><label>Your name </label> <input type="text" value="" /></p>
-      <p><label>Password </label> <input type="password" value="" /></p>
+    <form action="mailto:gvg@hg.com" method="post" enctype="text/plain">
+      <hr />
+      <p><label>Your name </label> <input name = "yourName" type="text" value="" /></p>
+      <p><label>Password </label> <input name = "yourPass" type="password" value="" /></p>
+      <p><label>Your Email </label> <input name = "yourEmail" type="email" value="" /></p>
+      <label for="">More info </label><textarea name="yourInfo" cols="50" rows="1"></textarea>
+      <p><input type="submit" value="Submit" /></p>
+      <hr />
+
+      <!-- <h3>Another forms:</h3>
       <p><input type="color" name="" id="" /></p>
       <p><input type="date" name="" id="" /></p>
       <p><input type="file" name="" id="" /></p>
@@ -20,7 +27,7 @@
       <p><input type="radio" name="" id="" /></p>
       <p><input type="range" name="" id="" /></p>
       <p><input type="hidden" name="" /></p>
-      <p><input type="button" value="Submit" /></p>
+      <p><input type="button" value="Submit" /></p> -->
     </form>
 
     <p><a href="../index.html">Back</a></p>
