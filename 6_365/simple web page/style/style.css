@@ -1,0 +1,35 @@
+  h1{
+    color: #182a9d;
+    font-family: Montserrat;
+  }
+
+h1, h2, h3{
+    font-family: 'Montserrat', sans-serif;
+
+}
+  h2{
+    color: darkorange;
+  }
+
+  h3{
+    color: cadetblue;
+  }
+  
+  
+  
+  
+  body {
+    background-color: #dddddd;
+  }
+
+  hr {
+    /* background-color: white; */
+    border-style: none;
+    height: 2px;
+    width: 5%;
+    /* border-width: 20px; */
+    border-top: 5px dotted grey;
+    
+    /* border-bottom: 10px dotted black; */
+    
+  }
