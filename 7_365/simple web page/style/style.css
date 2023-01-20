@@ -1,0 +1,27 @@
+  #heading{
+    color: #570052;
+    font-family: Monaco, sans-serif;
+  }
+
+
+  
+  .homer_git{
+    /* background-color: #92ff25; */
+    border-style:none;
+    border-left: dashed 10px #92ff25;
+    width: 450px;
+  }
+  
+
+
+  hr {
+    /* background-color: white; */
+    border-style: none;
+    height: 2px;
+    width: 5%;
+    /* border-width: 20px; */
+    border-top: 5px dotted grey;
+    
+    /* border-bottom: 10px dotted black; */
+    
+  }
